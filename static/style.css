@@ -1,0 +1,33 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+}
+
+.left {
+    flex-flow: row wrap;
+    border: 2px solid red;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin: 5px 0px 0px 5px;
+}
+
+.right {
+    flex-flow: row-reverse wrap;
+    border: 2px solid red;
+}
+
+.navbar {
+    flex-flow: row-reverse wrap;
+}
