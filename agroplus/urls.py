@@ -3,5 +3,7 @@ from django.urls import path
 from agroplus import views
 urlpatterns = [
     path('', views.home, name='home'),
-    path('home1', views.home1, name='home1'),
+    path('farmercorner', views.farmercorner, name='farmercorner'),
+    path('Buy', views.Buy, name='Buy'),
+    path('Sell', views.Sell, name='Sell'),
 ]
